@@ -46,10 +46,10 @@ const PlaceGallery = ({ place }) => {
   }
 
   return (
-    <div className="relative">
+    <div className="relative ">
       <div
         onClick={() => setShowAllPhotos(true)}
-        className="grid gap-2  grid-cols-[2fr_1fr] rounded-3xl overflow-hidden cursor-pointer"
+        className="grid gap-2  grid-cols-[2fr_1fr] rounded-3xl overflow-hidden cursor-pointer lg:px-10"
       >
         <div>
           {place.photos?.[0] && (

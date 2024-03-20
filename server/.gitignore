@@ -22,8 +22,7 @@ lib-cov
 # nyc test coverage
 .nyc_output
 
-# dotenv environment variables file
-.env
+
 
 # next.js build output
 .next
